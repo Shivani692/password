@@ -1,0 +1,62 @@
+body{
+    background-color: aliceblue;
+}
+.white{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 0 12px rgb(0,0,0.5);
+    width: 300px;
+    height: 200px;
+    margin-left: 150px;
+    margin-top: 200px;
+    h3{
+        text-align: center;
+        padding-top: 20px;
+    }
+    input{
+text-align: start;
+        margin-left: 20px;
+        width: 250px ;
+        height: 30px;
+        border:1.5px solid green;
+        border-radius: 5px;
+    }
+button{
+    width: 70px;
+    height: 10px;
+    margin-left: 0px;
+    transform: translateX(50px);
+    outline: none; 
+    border: none;
+    border-radius: 5px;
+}
+.show{
+    font-size: 10px;
+    margin-left: 220px;
+    margin-top: -40px;
+    animation:hide 0.1s infinite alternate ;
+}
+@keyframes hide{
+    from{
+        transform:skew(1);
+    }
+    to{
+        transform:skew(1.5);
+    }
+}
+
+}
+#red{
+    background-color: red;
+}
+#yellow{
+    background-color: rgb(248, 189, 15);
+}
+#green{
+    background-color: green;
+}
+.cap{
+    color: red;
+    margin-left: 240px;
+    margin-top: -70px;
+}
